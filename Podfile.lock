@@ -1,0 +1,47 @@
+PODS:
+  - AppCenter (5.0.5):
+    - AppCenter/Analytics (= 5.0.5)
+    - AppCenter/Crashes (= 5.0.5)
+  - AppCenter/Analytics (5.0.5):
+    - AppCenter/Core
+  - AppCenter/Core (5.0.5)
+  - AppCenter/Crashes (5.0.5):
+    - AppCenter/Core
+  - DLRadioButton (1.4.12)
+  - OAuthSwift (2.2.0)
+  - SAMKeychain (1.5.3)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - AppCenter
+  - DLRadioButton (~> 1.4)
+  - OAuthSwift (from `https://github.com/OAuthSwift/OAuthSwift.git`)
+  - SAMKeychain
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - AppCenter
+    - DLRadioButton
+    - SAMKeychain
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  OAuthSwift:
+    :git: https://github.com/OAuthSwift/OAuthSwift.git
+
+CHECKOUT OPTIONS:
+  OAuthSwift:
+    :commit: fe6b6a4ccb0f6fba346a06ae34a75b0733afa70d
+    :git: https://github.com/OAuthSwift/OAuthSwift.git
+
+SPEC CHECKSUMS:
+  AppCenter: 994875ea7941b9e168babb98299f900a94bcef13
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  OAuthSwift: 75efbb5bd9a4b2b71a37bd7e986bf3f55ddd54c6
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 36430dd6c21443e0a54821e1f899169fc04097c0
+
+COCOAPODS: 1.16.2

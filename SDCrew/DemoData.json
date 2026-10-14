@@ -1,0 +1,1289 @@
+{
+    "flightList":{
+        "totalCount":10,
+        "pageNumber":1,
+        "resultSet":[
+            {
+                "airportIcao":"LTBO",
+                "postedFlightFuel":{
+                    "postedFlightId":17006,
+                    "fuelOut":9,
+                    "plannedUp":50,
+                    "upliftQuantityTypeId":2,
+                    "fuelBurn":7,
+                    "quantityTypeId":1,
+                    "fuelOff":7,
+                    "fuelIn":2,
+                    "fuelOn":4
+                },
+                "aircraftProfileId":247,
+                "postedFlightId":17006,
+                "flightCrewMember":[
+                    {
+                        "crewMember":{
+                            "businessPersonId":7697,
+                            "lastName":"Emos",
+                            "firstName":"Anon",
+                            "crewMemberId":10728
+                        },
+                        "flightCrewMemberId":39761,
+                        "crewMemberTypeId":317,
+                        "isPilotFlying":false,
+                        "crewMemberId":10728,
+                        "isAssignedAutomatedData":false,
+                        "flightId":21869,
+                        "logbook":{
+                            "isHoldPerformed":false,
+                            "logbookApproaches":[
+                                
+                            ],
+                            "customerId":15318,
+                            "dayTakeoffs":1,
+                            "pic":true,
+                            "logbookId":29203,
+                            "flightCrewMemberId":39761,
+                            "sic":false,
+                            "nightLandings":0,
+                            "nightTakeoffs":0,
+                            "isTrackPerformed":true,
+                            "actualInstrumentDurationMinutes":60,
+                            "isSimulatedFlight":false,
+                            "crewMemberId":0,
+                            "dayLandings":1
+                        },
+                        "customerId":15318,
+                        "crewMemberType":{
+                            "crewMemberTypeId":317,
+                            "controlId":1,
+                            "customerId":15318
+                        }
+                    }
+                ],
+                "postFlightStatusName":"Logged",
+                "flightStopDateTime":"2019-08-17T07:00:00+00:00",
+                "arrivalAirportId":24392,
+                "flightStartDateTime":"2019-08-17T06:00:00+00:00",
+                "flightId":21869,
+                "roundingThreshold":3,
+                "tripId":4237,
+                "aircraftColor":"5,209,245",
+                "postedFlightOooi":{
+                    "flightStopDateTime":"2019-08-17T07:00:00+00:00",
+                    "aircraftProfileId":247,
+                    "postedFlightId":17006,
+                    "blockStopDateTime":"2019-08-17T08:00:00+00:00",
+                    "blockStartDateTime":"2019-08-17T05:00:00+00:00",
+                    "flightStartDateTime":"2019-08-17T06:00:00+00:00"
+                },
+                "departureAirportId":7749,
+                "departureIcao":"KBDE",
+                "postedFlightStatusTypeId":2,
+                "postedFlightAdditional":{
+                    "legNotes":"Testing",
+                    "postedFlightId":17006,
+                    "rejectedTakeoffs":0
+                }
+            },
+            {
+                "airportIcao":"USDA",
+                "postedFlightFuel":{
+                    "quantityTypeId":1,
+                    "postedFlightId":17007
+                },
+                "aircraftProfileId":247,
+                "postedFlightId":17007,
+                "flightCrewMember":[
+                    
+                ],
+                "postFlightStatusName":"Logged",
+                "flightStopDateTime":"2019-08-17T10:00:00+00:00",
+                "arrivalAirportId":26364,
+                "flightStartDateTime":"2019-08-17T10:00:00+00:00",
+                "flightId":21870,
+                "roundingThreshold":3,
+                "tripId":4238,
+                "aircraftColor":"5,209,245",
+                "postedFlightOooi":{
+                    "flightStartDateTime":"2019-08-17T10:00:00+00:00",
+                    "flightStopDateTime":"2019-08-17T10:00:00+00:00",
+                    "blockStopDateTime":"2019-08-17T10:00:00+00:00",
+                    "postedFlightId":17007,
+                    "aircraftProfileId":247,
+                    "blockStartDateTime":"2019-08-17T10:00:00+00:00"
+                },
+                "departureAirportId":7749,
+                "departureIcao":"KBDE",
+                "postedFlightStatusTypeId":2,
+                "postedFlightAdditional":{
+                    "postedFlightId":17007,
+                    "rejectedTakeoffs":0
+                }
+            },
+            {
+                "airportIcao":"KBDR",
+                "postedFlightFuel":{
+                    "postedFlightId":17011,
+                    "fuelOut":1,
+                    "quantityTypeId":1,
+                    "fuelOff":1
+                },
+                "aircraftProfileId":247,
+                "postedFlightId":17011,
+                "postFlightStatusName":"Logged",
+                "flightCrewMember":[
+                    {
+                        "crewMember":{
+                            "lastName":"Emos",
+                            "crewMemberId":10728,
+                            "firstName":"Anon",
+                            "businessPersonId":7697
+                        },
+                        "flightCrewMemberId":39759,
+                        "isPilotFlying":false,
+                        "crewMemberId":10728,
+                        "crewMemberTypeId":317,
+                        "isAssignedAutomatedData":false,
+                        "flightId":21882,
+                        "logbook":{
+                            "nightDurationMinutes":240,
+                            "flightCrewMemberId":39759,
+                            "logbookId":29201,
+                            "nightTakeoffs":1,
+                            "pic":true,
+                            "isTrackPerformed":false,
+                            "logbookApproaches":[
+                                
+                            ],
+                            "crewMemberId":0,
+                            "nightLandings":1,
+                            "dayLandings":0,
+                            "isSimulatedFlight":false,
+                            "customerId":15318,
+                            "sic":false,
+                            "isHoldPerformed":false,
+                            "dayTakeoffs":0
+                        },
+                        "customerId":15318,
+                        "crewMemberType":{
+                            "crewMemberTypeId":317,
+                            "controlId":1,
+                            "customerId":15318
+                        }
+                    },
+                    {
+                        "crewMember":{
+                            "lastName":"Pilot",
+                            "crewMemberId":10727,
+                            "firstName":"Otto",
+                            "businessPersonId":7696
+                        },
+                        "flightCrewMemberId":39760,
+                        "isPilotFlying":false,
+                        "crewMemberId":10727,
+                        "crewMemberTypeId":318,
+                        "isAssignedAutomatedData":false,
+                        "flightId":21882,
+                        "logbook":{
+                            "nightDurationMinutes":72,
+                            "logbookId":29202,
+                            "flightCrewMemberId":39760,
+                            "nightTakeoffs":0,
+                            "actualInstrumentDurationMinutes":0,
+                            "pic":false,
+                            "isTrackPerformed":false,
+                            "logbookApproaches":[
+                                
+                            ],
+                            "nightLandings":0,
+                            "crewMemberId":0,
+                            "dayLandings":0,
+                            "isSimulatedFlight":false,
+                            "customerId":15318,
+                            "sic":true,
+                            "isHoldPerformed":false,
+                            "dayTakeoffs":0
+                        },
+                        "customerId":15318,
+                        "crewMemberType":{
+                            "controlId":2,
+                            "crewMemberTypeId":318,
+                            "customerId":15318
+                        }
+                    }
+                ],
+                "flightStopDateTime":"2019-08-19T00:00:00+00:00",
+                "arrivalAirportId":2207,
+                "flightStartDateTime":"2019-08-18T18:50:00+00:00",
+                "flightId":21882,
+                "roundingThreshold":3,
+                "tripId":4203,
+                "aircraftColor":"5,209,245",
+                "postedFlightOooi":{
+                    "flightStopDateTime":"2019-08-19T00:00:00+00:00",
+                    "postedFlightId":17011,
+                    "blockStopDateTime":"2019-08-19T00:15:00+00:00",
+                    "aircraftProfileId":247,
+                    "flightStartDateTime":"2019-08-18T18:50:00+00:00",
+                    "blockStartDateTime":"2019-08-18T18:35:00+00:00"
+                },
+                "departureAirportId":24660,
+                "departureIcao":"UUYS",
+                "postedFlightStatusTypeId":2,
+                "postedFlightAdditional":{
+                    "departmentId":234,
+                    "postedFlightId":17011,
+                    "legNotes":"Logged from iPhone 777",
+                    "rejectedTakeoffs":0,
+                    "businessCategoryId":240
+                }
+            },
+            {
+                "postedFlightId":17098,
+                "roundingThreshold":3,
+                "tripId":1951,
+                "postedFlightStatusTypeId":2,
+                "airportIcao":"KBDR",
+                "departureIcao":"UUYS",
+                "flightCrewMember":[
+                    
+                ],
+                "flightStartDateTime":"2019-08-18T18:50:00+00:00",
+                "flightStopDateTime":"2019-08-19T17:15:00+00:00",
+                "arrivalAirportId":2207,
+                "aircraftProfileId":247,
+                "aircraftColor":"5,209,245",
+                "flightId":22018,
+                "postedFlightOooi":{
+                    "blockStartDateTime":"2019-08-18T18:35:00+00:00",
+                    "postedFlightId":17098,
+                    "flightStopDateTime":"2019-08-19T17:15:00+00:00",
+                    "flightStartDateTime":"2019-08-18T18:50:00+00:00",
+                    "blockStopDateTime":"2019-08-19T17:45:00+00:00",
+                    "scheduledFlightId":4852,
+                    "aircraftProfileId":247
+                },
+                "postedFlightFuel":{
+                    "quantityTypeId":1,
+                    "postedFlightId":17098
+                },
+                "departureAirportId":24660,
+                "postedFlightAdditional":{
+                    "postedFlightId":17098,
+                    "rejectedTakeoffs":0
+                },
+                "scheduledFlightId":4852,
+                "postFlightStatusName":"Logged"
+            },
+            {
+                "postedFlightId":17010,
+                "roundingThreshold":3,
+                "tripId":1956,
+                "postedFlightStatusTypeId":2,
+                "airportIcao":"KMLB",
+                "departureIcao":"KMDW",
+                "flightCrewMember":[
+                    {
+                        "flightId":21881,
+                        "crewMemberType":{
+                            "controlId":1,
+                            "crewMemberTypeId":317,
+                            "customerId":15318
+                        },
+                        "flightCrewMemberId":39757,
+                        "customerId":15318,
+                        "logbook":{
+                            "actualInstrumentDurationMinutes":108,
+                            "nightTakeoffs":0,
+                            "crewMemberId":0,
+                            "isHoldPerformed":false,
+                            "nightLandings":0,
+                            "flightCrewMemberId":39757,
+                            "dayTakeoffs":1,
+                            "dayLandings":1,
+                            "pic":true,
+                            "logbookApproaches":[
+                                
+                            ],
+                            "isTrackPerformed":true,
+                            "isSimulatedFlight":false,
+                            "customerId":15318,
+                            "logbookId":29199,
+                            "sic":false
+                        },
+                        "crewMemberId":10728,
+                        "crewMember":{
+                            "businessPersonId":7697,
+                            "firstName":"Anon",
+                            "lastName":"Emos",
+                            "crewMemberId":10728
+                        },
+                        "crewMemberTypeId":317,
+                        "isPilotFlying":false,
+                        "isAssignedAutomatedData":false
+                    },
+                    {
+                        "flightId":21881,
+                        "crewMemberType":{
+                            "controlId":2,
+                            "crewMemberTypeId":318,
+                            "customerId":15318
+                        },
+                        "flightCrewMemberId":39758,
+                        "customerId":15318,
+                        "logbook":{
+                            "isHoldPerformed":false,
+                            "isTrackPerformed":false,
+                            "isSimulatedFlight":false,
+                            "pic":false,
+                            "sic":true,
+                            "actualInstrumentDurationMinutes":24,
+                            "logbookApproaches":[
+                                {
+                                    "logbookApproachId":2520,
+                                    "approachTypeId":3,
+                                    "airportId":2850,
+                                    "logbookId":29200,
+                                    "isEVS":false
+                                }
+                            ],
+                            "customerId":15318,
+                            "flightCrewMemberId":39758,
+                            "logbookId":29200,
+                            "crewMemberId":0
+                        },
+                        "crewMemberId":10727,
+                        "crewMember":{
+                            "businessPersonId":7696,
+                            "firstName":"Otto",
+                            "lastName":"Pilot",
+                            "crewMemberId":10727
+                        },
+                        "crewMemberTypeId":318,
+                        "isPilotFlying":false,
+                        "isAssignedAutomatedData":false
+                    }
+                ],
+                "flightStartDateTime":"2019-08-19T05:52:44+00:00",
+                "flightStopDateTime":"2019-08-19T08:00:44+00:00",
+                "aircraftProfileId":245,
+                "arrivalAirportId":2850,
+                "aircraftColor":"241,8,8",
+                "flightId":21881,
+                "postedFlightFuel":{
+                    "quantityTypeId":1,
+                    "postedFlightId":17010
+                },
+                "postedFlightOooi":{
+                    "blockStopDateTime":"2019-08-19T08:15:44+00:00",
+                    "flightStopDateTime":"2019-08-19T08:00:44+00:00",
+                    "flightStartDateTime":"2019-08-19T05:52:44+00:00",
+                    "postedFlightId":17010,
+                    "scheduledFlightId":4859,
+                    "aircraftProfileId":245,
+                    "blockStartDateTime":"2019-08-19T05:37:44+00:00"
+                },
+                "departureAirportId":4082,
+                "postedFlightAdditional":{
+                    "businessCategoryId":240,
+                    "rejectedTakeoffs":0,
+                    "departmentId":234,
+                    "postedFlightId":17010
+                },
+                "scheduledFlightId":4859,
+                "postFlightStatusName":"Logged"
+            },
+            {
+                "postedFlightId":17061,
+                "roundingThreshold":3,
+                "tripId":1981,
+                "postedFlightStatusTypeId":2,
+                "airportIcao":"KLAX",
+                "departureIcao":"KCMH",
+                "flightCrewMember":[
+                    {
+                        "logbook":{
+                            "logbookId":29248,
+                            "isHoldPerformed":false,
+                            "isSimulatedFlight":false,
+                            "isTrackPerformed":false,
+                            "customerId":15318,
+                            "pic":false,
+                            "flightCrewMemberId":39903,
+                            "sic":true,
+                            "crewMemberId":0,
+                            "logbookApproaches":[
+                                
+                            ]
+                        },
+                        "crewMemberTypeId":318,
+                        "crewMemberType":{
+                            "controlId":2,
+                            "crewMemberTypeId":318,
+                            "customerId":15318
+                        },
+                        "flightCrewMemberId":39903,
+                        "crewMemberId":10727,
+                        "flightId":21966,
+                        "crewMember":{
+                            "businessPersonId":7696,
+                            "firstName":"Otto",
+                            "lastName":"Pilot",
+                            "crewMemberId":10727
+                        },
+                        "isAssignedAutomatedData":false,
+                        "isPilotFlying":false,
+                        "customerId":15318
+                    },
+                    {
+                        "logbook":{
+                            "isTrackPerformed":true,
+                            "dayLandings":1,
+                            "sic":false,
+                            "nightTakeoffs":0,
+                            "dayTakeoffs":1,
+                            "logbookApproaches":[
+                                
+                            ],
+                            "pic":true,
+                            "nightLandings":0,
+                            "crewMemberId":0,
+                            "isSimulatedFlight":false,
+                            "isHoldPerformed":false,
+                            "flightCrewMemberId":39904,
+                            "customerId":15318,
+                            "logbookId":29249
+                        },
+                        "crewMemberTypeId":317,
+                        "crewMemberType":{
+                            "controlId":1,
+                            "crewMemberTypeId":317,
+                            "customerId":15318
+                        },
+                        "flightCrewMemberId":39904,
+                        "crewMemberId":10728,
+                        "flightId":21966,
+                        "crewMember":{
+                            "lastName":"Emos",
+                            "businessPersonId":7697,
+                            "firstName":"Anon",
+                            "crewMemberId":10728
+                        },
+                        "isAssignedAutomatedData":false,
+                        "isPilotFlying":false,
+                        "customerId":15318
+                    }
+                ],
+                "flightStartDateTime":"2019-08-23T05:00:00+00:00",
+                "flightStopDateTime":"2019-08-23T09:25:00+00:00",
+                "aircraftProfileId":248,
+                "arrivalAirportId":1342,
+                "aircraftColor":"7,92,224",
+                "flightId":21966,
+                "postedFlightFuel":{
+                    "quantityTypeId":1,
+                    "postedFlightId":17061
+                },
+                "postedFlightOooi":{
+                    "scheduledFlightId":4909,
+                    "blockStopDateTime":"2019-08-23T09:40:00+00:00",
+                    "flightStartDateTime":"2019-08-23T05:00:00+00:00",
+                    "aircraftProfileId":248,
+                    "postedFlightId":17061,
+                    "blockStartDateTime":"2019-08-23T04:45:00+00:00",
+                    "flightStopDateTime":"2019-08-23T09:25:00+00:00"
+                },
+                "departureAirportId":11721,
+                "postedFlightAdditional":{
+                    "rejectedTakeoffs":0,
+                    "postedFlightId":17061,
+                    "businessCategoryId":241
+                },
+                "scheduledFlightId":4909,
+                "postFlightStatusName":"Logged"
+            },
+            {
+                "postedFlightId":17063,
+                "roundingThreshold":3,
+                "tripId":1981,
+                "postedFlightStatusTypeId":2,
+                "airportIcao":"KIND",
+                "departureIcao":"KTEB",
+                "flightCrewMember":[
+                    {
+                        "crewMemberType":{
+                            "controlId":2,
+                            "crewMemberTypeId":318,
+                            "customerId":15318
+                        },
+                        "isAssignedAutomatedData":false,
+                        "crewMemberId":10727,
+                        "crewMemberTypeId":318,
+                        "logbook":{
+                            "isHoldPerformed":false,
+                            "logbookId":29251,
+                            "pic":false,
+                            "isTrackPerformed":false,
+                            "logbookApproaches":[
+                                
+                            ],
+                            "flightCrewMemberId":39912,
+                            "customerId":15318,
+                            "crewMemberId":0,
+                            "isSimulatedFlight":false,
+                            "sic":true
+                        },
+                        "isPilotFlying":false,
+                        "flightId":21971,
+                        "crewMember":{
+                            "firstName":"Otto",
+                            "lastName":"Pilot",
+                            "crewMemberId":10727,
+                            "businessPersonId":7696
+                        },
+                        "flightCrewMemberId":39912,
+                        "customerId":15318
+                    },
+                    {
+                        "logbook":{
+                            "dayLandings":1,
+                            "isSimulatedFlight":false,
+                            "sic":false,
+                            "pic":true,
+                            "logbookApproaches":[
+                                
+                            ],
+                            "customerId":15318,
+                            "isTrackPerformed":true,
+                            "crewMemberId":0,
+                            "isHoldPerformed":false,
+                            "dayTakeoffs":1,
+                            "flightCrewMemberId":39913,
+                            "nightLandings":0,
+                            "nightTakeoffs":0,
+                            "logbookId":29252
+                        },
+                        "crewMemberTypeId":317,
+                        "crewMemberType":{
+                            "crewMemberTypeId":317,
+                            "customerId":15318,
+                            "controlId":1
+                        },
+                        "isAssignedAutomatedData":false,
+                        "isPilotFlying":false,
+                        "flightCrewMemberId":39913,
+                        "flightId":21971,
+                        "crewMember":{
+                            "businessPersonId":7697,
+                            "firstName":"Anon",
+                            "lastName":"Emos",
+                            "crewMemberId":10728
+                        },
+                        "crewMemberId":10728,
+                        "customerId":15318
+                    }
+                ],
+                "flightStartDateTime":"2019-08-23T11:00:00+00:00",
+                "flightStopDateTime":"2019-08-23T12:35:00+00:00",
+                "aircraftProfileId":248,
+                "arrivalAirportId":4947,
+                "aircraftColor":"7,92,224",
+                "flightId":21971,
+                "postedFlightFuel":{
+                    "quantityTypeId":1,
+                    "postedFlightId":17063
+                },
+                "postedFlightOooi":{
+                    "blockStartDateTime":"2019-08-23T10:45:00+00:00",
+                    "postedFlightId":17063,
+                    "flightStopDateTime":"2019-08-23T12:35:00+00:00",
+                    "flightStartDateTime":"2019-08-23T11:00:00+00:00",
+                    "aircraftProfileId":248,
+                    "scheduledFlightId":4911,
+                    "blockStopDateTime":"2019-08-23T12:50:00+00:00"
+                },
+                "departureAirportId":10015,
+                "postedFlightAdditional":{
+                    "rejectedTakeoffs":0,
+                    "postedFlightId":17063
+                },
+                "scheduledFlightId":4911,
+                "postFlightStatusName":"Logged"
+            },
+            {
+                "roundingThreshold":3,
+                "flightStopDateTime":"2019-08-23T20:20:00+00:00",
+                "flightId":21969,
+                "scheduledFlightId":4913,
+                "flightCrewMember":[
+                    {
+                        "crewMember":{
+                            "lastName":"Emos",
+                            "crewMemberId":10728,
+                            "firstName":"Anon",
+                            "businessPersonId":7697
+                        },
+                        "flightCrewMemberId":39909,
+                        "isPilotFlying":true,
+                        "crewMemberTypeId":317,
+                        "crewMemberId":10728,
+                        "isAssignedAutomatedData":false,
+                        "flightId":0,
+                        "customerId":15318,
+                        "crewMemberType":{
+                            "crewMemberTypeId":317,
+                            "controlId":1,
+                            "customerId":15318
+                        }
+                    },
+                    {
+                        "crewMember":{
+                            "lastName":"Pilot",
+                            "crewMemberId":10727,
+                            "firstName":"Otto",
+                            "businessPersonId":7696
+                        },
+                        "flightCrewMemberId":39910,
+                        "isPilotFlying":false,
+                        "crewMemberId":10727,
+                        "crewMemberTypeId":318,
+                        "isAssignedAutomatedData":false,
+                        "flightId":0,
+                        "customerId":15318,
+                        "crewMemberType":{
+                            "crewMemberTypeId":318,
+                            "controlId":2,
+                            "customerId":15318
+                        }
+                    }
+                ],
+                "departureAirportId":4947,
+                "tripId":1981,
+                "airportIcao":"KCMH",
+                "flightStartDateTime":"2019-08-23T20:00:00+00:00",
+                "arrivalAirportId":11721,
+                "departureIcao":"KIND",
+                "postedFlightStatusTypeId":1,
+                "aircraftProfileId":248,
+                "postFlightStatusName":"Not Logged",
+                "aircraftColor":"7,92,224"
+            },
+            {
+                "aircraftProfileId":248,
+                "flightCrewMember":[
+                    {
+                        "crewMember":{
+                            "lastName":"Emos",
+                            "crewMemberId":10728,
+                            "firstName":"Anon",
+                            "businessPersonId":7697
+                        },
+                        "flightCrewMemberId":39907,
+                        "isPilotFlying":true,
+                        "crewMemberId":10728,
+                        "crewMemberTypeId":317,
+                        "isAssignedAutomatedData":false,
+                        "flightId":0,
+                        "customerId":15318,
+                        "crewMemberType":{
+                            "crewMemberTypeId":317,
+                            "controlId":1,
+                            "customerId":15318
+                        }
+                    },
+                    {
+                        "crewMember":{
+                            "lastName":"Pilot",
+                            "crewMemberId":10727,
+                            "firstName":"Otto",
+                            "businessPersonId":7696
+                        },
+                        "flightCrewMemberId":39908,
+                        "isPilotFlying":false,
+                        "crewMemberId":10727,
+                        "crewMemberTypeId":318,
+                        "isAssignedAutomatedData":false,
+                        "flightId":0,
+                        "customerId":15318,
+                        "crewMemberType":{
+                            "crewMemberTypeId":318,
+                            "controlId":2,
+                            "customerId":15318
+                        }
+                    }
+                ],
+                "postFlightStatusName":"Not Logged",
+                "scheduledFlightId":4912,
+                "flightStopDateTime":"2019-08-24T20:25:00+00:00",
+                "arrivalAirportId":1342,
+                "flightStartDateTime":"2019-08-24T16:00:00+00:00",
+                "roundingThreshold":3,
+                "flightId":21968,
+                "tripId":1981,
+                "aircraftColor":"7,92,224",
+                "departureAirportId":11721,
+                "departureIcao":"KCMH",
+                "postedFlightStatusTypeId":1,
+                "airportIcao":"KLAX"
+            },
+            {
+                "airportIcao":"KIND",
+                "postedFlightFuel":{
+                    "quantityTypeId":1,
+                    "postedFlightId":17064
+                },
+                "aircraftProfileId":248,
+                "postedFlightId":17064,
+                "flightCrewMember":[
+                    {
+                        "flightCrewMemberId":39914,
+                        "crewMember":{
+                            "crewMemberId":10728,
+                            "lastName":"Emos",
+                            "firstName":"Anon",
+                            "businessPersonId":7697
+                        },
+                        "crewMemberId":10728,
+                        "isPilotFlying":false,
+                        "logbook":{
+                            "logbookId":29253,
+                            "sic":false,
+                            "customerId":15318,
+                            "crewMemberId":0,
+                            "pic":false,
+                            "isSimulatedFlight":false,
+                            "isTrackPerformed":false,
+                            "isHoldPerformed":false,
+                            "flightCrewMemberId":39914,
+                            "logbookApproaches":[
+                                
+                            ]
+                        },
+                        "isAssignedAutomatedData":false,
+                        "flightId":21972,
+                        "customerId":15318
+                    }
+                ],
+                "postFlightStatusName":"Logged",
+                "flightStopDateTime":"2019-08-25T02:00:00+00:00",
+                "arrivalAirportId":4947,
+                "flightStartDateTime":"2019-08-25T01:00:00+00:00",
+                "flightId":21972,
+                "roundingThreshold":3,
+                "aircraftColor":"7,92,224",
+                "departureAirportId":1342,
+                "postedFlightOooi":{
+                    "postedFlightId":17064,
+                    "blockStopDateTime":"2019-08-25T02:00:00+00:00",
+                    "flightStartDateTime":"2019-08-25T01:00:00+00:00",
+                    "aircraftProfileId":248,
+                    "blockStartDateTime":"2019-08-25T01:00:00+00:00",
+                    "flightStopDateTime":"2019-08-25T02:00:00+00:00"
+                },
+                "departureIcao":"KLAX",
+                "postedFlightStatusTypeId":2,
+                "postedFlightAdditional":{
+                    "postedFlightId":17064,
+                    "rejectedTakeoffs":0
+                }
+            }
+        ],
+        "pageSize":10
+    },
+    "trailNumber":[
+        {
+            "aircraftProfileId": 247,
+            "customerId": 15318,
+            "color": "5,209,245",
+            "tailNumber": "AJNX8ST",
+            "displayOrder": 1,
+            "manufacturer": "Test Bench",
+            "modelName": "Test Bench",
+            "serialNumber": "SDQA8ST",
+            "homeBaseId": 3081,
+            "postFlightVisibilities": [
+                {
+                    "postFlightVisibilityTypeId": 1,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 2,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 11,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 3,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 4,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 5,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 10,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 8,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 9,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 6,
+                    "isExpanded": true
+                }
+            ],
+            "hasHobbsMeter": false,
+            "canSelectPartOperation": false,
+            "isEVSEquipped": false,
+            "domesticPreFlightBuffer": 0,
+            "domesticPostFlightBuffer": 0,
+            "internationalPreFlightBuffer": 0,
+            "internationalPostFlightBuffer": 0,
+            "aircraftTimes": {
+                "airframeTotalMinutes": 1836,
+                "airframeTotalLandings": 2,
+                "currentRoundingThresholdMinutes": 3
+            },
+            "roundingThresholdHistory": [
+                {
+                    "roundingThresholdMinutes": 3,
+                    "startDateTime": "2010-01-01T00:00:00+00:00"
+                }
+            ],
+            "isCampMaint": false
+        },
+        {
+            "aircraftProfileId": 244,
+            "customerId": 15318,
+            "tailNumber": "HMSG4ST",
+            "displayOrder": 1,
+            "manufacturer": "Test Bench",
+            "modelName": "Test Bench",
+            "serialNumber": "SDQA6ST",
+            "postFlightVisibilities": [],
+            "hasHobbsMeter": false,
+            "canSelectPartOperation": false,
+            "isEVSEquipped": false,
+            "domesticPreFlightBuffer": 0,
+            "domesticPostFlightBuffer": 0,
+            "internationalPreFlightBuffer": 0,
+            "internationalPostFlightBuffer": 0,
+            "aircraftTimes": {
+                "airframeTotalMinutes": 0,
+                "airframeTotalLandings": 0,
+                "currentRoundingThresholdMinutes": 3
+            },
+            "roundingThresholdHistory": [
+                {
+                    "roundingThresholdMinutes": 3,
+                    "startDateTime": "2010-01-01T00:00:00+00:00"
+                }
+            ],
+            "isCampMaint": false
+        },
+        {
+            "aircraftProfileId": 245,
+            "customerId": 15318,
+            "color": "241,8,8",
+            "tailNumber": "INJE6ST",
+            "displayOrder": 1,
+            "manufacturer": "Test Bench",
+            "modelName": "Test Bench",
+            "serialNumber": "SDQA9ST",
+            "homeBaseId": 4082,
+            "postFlightVisibilities": [
+                {
+                    "postFlightVisibilityTypeId": 1,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 2,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 11,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 3,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 4,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 5,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 10,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 8,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 9,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 6,
+                    "isExpanded": true
+                }
+            ],
+            "hasHobbsMeter": false,
+            "canSelectPartOperation": false,
+            "isEVSEquipped": true,
+            "domesticPreFlightBuffer": 0,
+            "domesticPostFlightBuffer": 0,
+            "internationalPreFlightBuffer": 0,
+            "internationalPostFlightBuffer": 0,
+            "mostRecentScheduledFlightId": 4859,
+            "flightSummaryDto": {
+                "aircraftProfileId": 245,
+                "postedAircraftTripId": 4202,
+                "scheduledAircraftTripId": 1956,
+                "postedFlightId": 17010,
+                "scheduledFlightId": 4859,
+                "departureAirportCode": "KMDW",
+                "arrivalAirportCode": "KMLB",
+                "departureAirport": {
+                    "airportId": 4082,
+                    "icao": "KMDW",
+                    "iata": "MDW",
+                    "faaCode": "MDW",
+                    "airportName": "CHICAGO MIDWAY INTL",
+                    "latitude": 41.785972,
+                    "longitude": -87.752416,
+                    "associatedCityName": "CHICAGO",
+                    "stateCodeUsAndTer": "IL",
+                    "associatedCountryName": "UNITED STATES",
+                    "landingFacilityIdentifier": "04507.*A",
+                    "jetA": true,
+                    "avgas100": true,
+                    "avgas80": false,
+                    "airportOperatingHours": "24 w/R",
+                    "airportElevation": 619.8,
+                    "isCustomerAirport": false,
+                    "daySaveTimeStartDateUtc": "2019-03-10T08:00:00+00:00",
+                    "daySaveTimeEndDateUtc": "2019-11-03T07:00:00+00:00",
+                    "timeConversion": "-6",
+                    "timeConversionDaySave": "-5"
+                },
+                "arrivalAirport": {
+                    "airportId": 2850,
+                    "icao": "KMLB",
+                    "iata": "MLB",
+                    "faaCode": "MLB",
+                    "airportName": "MELBOURNE INTL",
+                    "latitude": 28.10275,
+                    "longitude": -80.64525,
+                    "associatedCityName": "MELBOURNE",
+                    "stateCodeUsAndTer": "FL",
+                    "associatedCountryName": "UNITED STATES",
+                    "landingFacilityIdentifier": "03321.*A",
+                    "jetA": true,
+                    "avgas100": true,
+                    "avgas80": false,
+                    "airportOperatingHours": "Multi R",
+                    "airportElevation": 33.3,
+                    "isCustomerAirport": false,
+                    "daySaveTimeStartDateUtc": "2019-03-10T07:00:00+00:00",
+                    "daySaveTimeEndDateUtc": "2019-11-03T06:00:00+00:00",
+                    "timeConversion": "-5",
+                    "timeConversionDaySave": "-4"
+                }
+            },
+            "aircraftTimes": {
+                "airframeTotalMinutes": 246,
+                "airframeTotalLandings": 1,
+                "airframeEngines": [
+                    {
+                        "aircraftProfileId": 245,
+                        "engineId": 213,
+                        "name": "sdStitelnet",
+                        "engineMinutes": 0,
+                        "engineCycles": 1
+                    }
+                ],
+                "airframeComponents": [
+                    {
+                        "aircraftProfileId": 245,
+                        "componentId": 41,
+                        "name": "sdst_apu",
+                        "componentTypeId": 1,
+                        "minutes": 36,
+                        "cycles": 1
+                    }
+                ],
+                "currentRoundingThresholdMinutes": 3
+            },
+            "roundingThresholdHistory": [
+                {
+                    "roundingThresholdMinutes": 3,
+                    "startDateTime": "2010-01-01T00:00:00+00:00"
+                }
+            ],
+            "isCampMaint": false
+        },
+        {
+            "aircraftProfileId": 246,
+            "customerId": 15318,
+            "color": "128,128,128",
+            "tailNumber": "JXEF4ST",
+            "displayOrder": 1,
+            "manufacturer": "Test Bench",
+            "modelName": "Test Bench",
+            "serialNumber": "SDQA1ST",
+            "postFlightVisibilities": [],
+            "hasHobbsMeter": false,
+            "canSelectPartOperation": false,
+            "isEVSEquipped": false,
+            "domesticPreFlightBuffer": 0,
+            "domesticPostFlightBuffer": 0,
+            "internationalPreFlightBuffer": 0,
+            "internationalPostFlightBuffer": 0,
+            "aircraftTimes": {
+                "airframeTotalMinutes": 0,
+                "airframeTotalLandings": 0,
+                "currentRoundingThresholdMinutes": 3
+            },
+            "roundingThresholdHistory": [
+                {
+                    "roundingThresholdMinutes": 3,
+                    "startDateTime": "2010-01-01T00:00:00+00:00"
+                }
+            ],
+            "isCampMaint": false
+        },
+        {
+            "aircraftProfileId": 248,
+            "customerId": 15318,
+            "color": "7,92,224",
+            "tailNumber": "SV724ST",
+            "displayOrder": 1,
+            "manufacturer": "Gulfstream",
+            "modelName": "G500",
+            "serialNumber": "20239SATCOMDEMO",
+            "homeBaseId": 11721,
+            "postFlightVisibilities": [
+                {
+                    "postFlightVisibilityTypeId": 1,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 2,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 11,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 3,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 4,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 5,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 10,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 8,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 9,
+                    "isExpanded": true
+                },
+                {
+                    "postFlightVisibilityTypeId": 6,
+                    "isExpanded": true
+                }
+            ],
+            "hasHobbsMeter": false,
+            "canSelectPartOperation": false,
+            "isEVSEquipped": true,
+            "domesticPreFlightBuffer": 0,
+            "domesticPostFlightBuffer": 0,
+            "internationalPreFlightBuffer": 0,
+            "internationalPostFlightBuffer": 0,
+            "aircraftTimes": {
+                "airframeTotalMinutes": 420,
+                "airframeTotalLandings": 2,
+                "airframeEngines": [
+                    {
+                        "aircraftProfileId": 248,
+                        "engineId": 214,
+                        "name": "No. 2",
+                        "engineMinutes": 12624,
+                        "engineCycles": 92
+                    },
+                    {
+                        "aircraftProfileId": 248,
+                        "engineId": 215,
+                        "name": "No. 1",
+                        "engineMinutes": 22080,
+                        "engineCycles": 127
+                    }
+                ],
+                "airframeComponents": [
+                    {
+                        "aircraftProfileId": 248,
+                        "componentId": 42,
+                        "name": "N584SD APU",
+                        "componentTypeId": 1,
+                        "minutes": 180,
+                        "cycles": 1
+                    }
+                ],
+                "currentRoundingThresholdMinutes": 3
+            },
+            "roundingThresholdHistory": [
+                {
+                    "roundingThresholdMinutes": 3,
+                    "startDateTime": "2010-01-01T00:00:00+00:00"
+                }
+            ],
+            "maintenanceProviderId": 1,
+            "maintenanceProvider": "CAMP",
+            "isCampMaint": true
+        },
+        {
+            "aircraftProfileId": 240,
+            "customerId": 15318,
+            "tailNumber": "TAWC9ST",
+            "displayOrder": 1,
+            "manufacturer": "Test Bench",
+            "modelName": "Test Bench",
+            "serialNumber": "SDQA2ST",
+            "postFlightVisibilities": [],
+            "hasHobbsMeter": false,
+            "canSelectPartOperation": false,
+            "isEVSEquipped": false,
+            "domesticPreFlightBuffer": 0,
+            "domesticPostFlightBuffer": 0,
+            "internationalPreFlightBuffer": 0,
+            "internationalPostFlightBuffer": 0,
+            "aircraftTimes": {
+                "airframeTotalMinutes": 0,
+                "airframeTotalLandings": 0,
+                "currentRoundingThresholdMinutes": 3
+            },
+            "roundingThresholdHistory": [
+                {
+                    "roundingThresholdMinutes": 3,
+                    "startDateTime": "2010-01-01T00:00:00+00:00"
+                }
+            ],
+            "isCampMaint": false
+        },
+        {
+            "aircraftProfileId": 242,
+            "customerId": 15318,
+            "tailNumber": "UJCC9ST",
+            "displayOrder": 1,
+            "manufacturer": "Test Bench",
+            "modelName": "Test Bench",
+            "serialNumber": "SDQA4ST",
+            "postFlightVisibilities": [],
+            "hasHobbsMeter": false,
+            "canSelectPartOperation": false,
+            "isEVSEquipped": false,
+            "domesticPreFlightBuffer": 0,
+            "domesticPostFlightBuffer": 0,
+            "internationalPreFlightBuffer": 0,
+            "internationalPostFlightBuffer": 0,
+            "aircraftTimes": {
+                "airframeTotalMinutes": 0,
+                "airframeTotalLandings": 0,
+                "currentRoundingThresholdMinutes": 3
+            },
+            "roundingThresholdHistory": [
+                {
+                    "roundingThresholdMinutes": 3,
+                    "startDateTime": "2010-01-01T00:00:00+00:00"
+                }
+            ],
+            "isCampMaint": false
+        },
+        {
+            "aircraftProfileId": 243,
+            "customerId": 15318,
+            "tailNumber": "VXJY6ST",
+            "displayOrder": 1,
+            "manufacturer": "Test Bench",
+            "modelName": "Test Bench",
+            "serialNumber": "SDQA5ST",
+            "postFlightVisibilities": [],
+            "hasHobbsMeter": false,
+            "canSelectPartOperation": false,
+            "isEVSEquipped": false,
+            "domesticPreFlightBuffer": 0,
+            "domesticPostFlightBuffer": 0,
+            "internationalPreFlightBuffer": 0,
+            "internationalPostFlightBuffer": 0,
+            "aircraftTimes": {
+                "airframeTotalMinutes": 0,
+                "airframeTotalLandings": 0,
+                "currentRoundingThresholdMinutes": 3
+            },
+            "roundingThresholdHistory": [
+                {
+                    "roundingThresholdMinutes": 3,
+                    "startDateTime": "2010-01-01T00:00:00+00:00"
+                }
+            ],
+            "isCampMaint": false
+        },
+        {
+            "aircraftProfileId": 241,
+            "customerId": 15318,
+            "tailNumber": "ZUFB7ST",
+            "displayOrder": 1,
+            "manufacturer": "Test Bench",
+            "modelName": "Test Bench",
+            "serialNumber": "SDQA3ST",
+            "postFlightVisibilities": [],
+            "hasHobbsMeter": false,
+            "canSelectPartOperation": false,
+            "isEVSEquipped": false,
+            "domesticPreFlightBuffer": 0,
+            "domesticPostFlightBuffer": 0,
+            "internationalPreFlightBuffer": 0,
+            "internationalPostFlightBuffer": 0,
+            "aircraftTimes": {
+                "airframeTotalMinutes": 0,
+                "airframeTotalLandings": 0,
+                "currentRoundingThresholdMinutes": 3
+            },
+            "roundingThresholdHistory": [
+                {
+                    "roundingThresholdMinutes": 3,
+                    "startDateTime": "2010-01-01T00:00:00+00:00"
+                }
+            ],
+            "isCampMaint": false
+        }
+    ]
+}
+
