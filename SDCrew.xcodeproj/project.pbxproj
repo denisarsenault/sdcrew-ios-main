@@ -295,7 +295,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Views;
+			name = Views;
 			sourceTree = "<group>";
 		};
 		229A6C64230964CF0029558C /* Storyboards */ = {

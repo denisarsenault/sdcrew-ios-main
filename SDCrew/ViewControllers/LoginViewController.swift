@@ -68,6 +68,14 @@ class LoginViewController: UIViewController, OIDAuthStateChangeDelegate, OIDAuth
     
     @IBAction func btnLoginPressed(_ sender: UIButton) {
         self.startActivityIndicator("Please wait")
+
+        // Demo mode: the identity server is only reachable from the corporate network, so skip
+        // the OpenID discovery/authorization round trip and seed the app from bundled demo data.
+        if SessionManager.shared.demoMode {
+            loginWithDemoData()
+            return
+        }
+
         guard let issuer = URL(string: AppConfig.Auth0RequestParams.IDENTIFIER_URL) else {
             self.showAlertViewController(titleText: "Url Error", messageText: "Error creating URL for : \(AppConfig.Auth0RequestParams.IDENTIFIER_URL)", leftSideText: "Dismiss", rightSideText: "")
             return
@@ -219,6 +227,16 @@ class LoginViewController: UIViewController, OIDAuthStateChangeDelegate, OIDAuth
     @IBAction func btnTestLoginPressed(_ sender: UIButton) {
         UserDefaults.standard.set(true, forKey: AppConfig.UserdefaultKeys.LOGGED_IN_STATUS_KEY)
         LoginSwitcher.updateRootVC()
+    }
+
+    /// Demo-mode sign in: loads the flight list and tail numbers from DemoData.json into Core
+    /// Data, marks the user as logged in, and shows the flight leg list. No network is used.
+    private func loginWithDemoData() {
+        SessionManager.shared.loadDemoDataIntoCoreData {
+            self.stopActivityIndicator()
+            UserDefaults.standard.set(true, forKey: AppConfig.UserdefaultKeys.LOGGED_IN_STATUS_KEY)
+            LoginSwitcher.updateRootVC()
+        }
     }
     
     //MARK:- Auth0 Funcs

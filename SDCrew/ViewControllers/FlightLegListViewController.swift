@@ -146,6 +146,16 @@ class FlightLegListViewController: UIViewController, UITableViewDelegate, UITabl
     
     @objc func getLatestPressed(sender : UITapGestureRecognizer) {
         self.startActivityIndicator("Loading...")
+
+        // Demo mode: the post-flight API is only reachable on the corporate network, so reload
+        // from the bundled demo data instead of waiting 60 s for the request to time out.
+        if SessionManager.shared.demoMode {
+            SessionManager.shared.loadDemoDataIntoCoreData {
+                self.stopActivityIndicator()
+            }
+            return
+        }
+
         var headersDict : [String:String] = [String:String]();
         if let tempToken = UserDefaults.standard.value(forKey: AppConfig.UserdefaultKeys.ACCESS_TOKEN){
             headersDict["Authorization"] = "Bearer \(tempToken as! String)"

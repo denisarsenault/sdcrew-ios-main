@@ -252,7 +252,28 @@ class SessionManager: NSObject, URLSessionDelegate {
     }
     
     //MARK: DEMO
-    
+
+    /// Seeds Core Data from the bundled DemoData.json (flight list, then tail numbers) and posts
+    /// the "flightDataReceived" notification. Used instead of the network when `demoMode` is on.
+    func loadDemoDataIntoCoreData(completion: @escaping () -> Void) {
+        let coreDataManager = CoreDataManager()
+
+        returnDemoData(type: .flightList, info: nil) { result, _, flightJson in
+            if result == .Successful, let flightJson = flightJson {
+                coreDataManager.insertData(types: [.Flight, .Fuel, .Pilot, .Note], jasonData: flightJson)
+            }
+
+            self.returnDemoData(type: .trailNumber, info: nil) { result, _, tailJson in
+                if result == .Successful, let tailJson = tailJson {
+                    coreDataManager.insertTrailId(aircrafts: tailJson)
+                }
+
+                NotificationCenter.default.post(Notification(name: Notification.Name(rawValue: "flightDataReceived")))
+                completion()
+            }
+        }
+    }
+
     func returnDemoData(type:ApiType,info:[String:String]?,completion:@escaping apiCompletion) -> Void {
         
         guard let url = Bundle.main.url(forResource: "DemoData", withExtension: "json") else{return}
