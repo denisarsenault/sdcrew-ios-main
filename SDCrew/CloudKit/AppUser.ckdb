@@ -1,0 +1,38 @@
+// CloudKit schema for the my Pilot public database.
+//
+// Import into the Development environment of iCloud.com.hawknestsoftware.mypilot either
+// from the CloudKit Console (Schema > Import Schema) or with cktool:
+//
+//   xcrun cktool save-token            # paste a management token from the console
+//   xcrun cktool import-schema \
+//       --team-id <TEAM_ID> \
+//       --container-id iCloud.com.hawknestsoftware.mypilot \
+//       --environment development \
+//       --file SDCrew/CloudKit/AppUser.ckdb
+//
+// Keep in step with AppUser.Field in AppUser.swift.
+
+DEFINE SCHEMA
+
+    RECORD TYPE AppUser (
+        "___createTime"      TIMESTAMP,
+        "___createdBy"       REFERENCE,
+        "___etag"            STRING,
+        "___modTime"         TIMESTAMP,
+        "___modifiedBy"      REFERENCE,
+        "___recordID"        REFERENCE QUERYABLE,
+        email                STRING,
+        firstName            STRING,
+        iCloudUserRecordName STRING QUERYABLE,
+        inviteCode           STRING QUERYABLE,
+        lastName             STRING,
+        role                 STRING,
+        status               STRING QUERYABLE,
+        statusChangedAt      TIMESTAMP,
+        // Any signed-in iCloud user may create records (first-admin setup, access requests)
+        // and write to records they did not create (administrators approving pilots,
+        // pilots linking their iCloud account to an invited record).
+        GRANT READ TO "_icloud",
+        GRANT CREATE TO "_icloud",
+        GRANT WRITE TO "_icloud"
+    );

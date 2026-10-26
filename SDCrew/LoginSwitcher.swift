@@ -7,7 +7,10 @@
 //
 
 import UIKit
+import SwiftUI
 
+/// Chooses the window's root view controller from the CloudKit session state.
+@MainActor
 class LoginSwitcher{
 
     /// The app's main window. Prefers the window owned by the active window scene and
@@ -21,19 +24,40 @@ class LoginSwitcher{
         return sceneWindow ?? (UIApplication.shared.delegate as? AppDelegate)?.window
     }
 
+    /// Shows the flight leg list when the device's iCloud account is an active app user,
+    /// otherwise the access gate (iCloud check, first-admin setup, invite code, blocked states).
     static func updateRootVC(){
+        let store = SessionStore.shared
+        let rootVC: UIViewController
 
-        let status = UserDefaults.standard.bool(forKey: AppConfig.UserdefaultKeys.LOGGED_IN_STATUS_KEY)
-        let rootVC : UIViewController
-
-        if(status == true){
+        if store.isAuthorized {
             let storyBoard = UIStoryboard(name: "FlightLegList", bundle: nil)
             rootVC = storyBoard.instantiateViewController(withIdentifier: "FlightLegListNav")
-        }else{
-            rootVC = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: "LoginViewController")
+        } else {
+            rootVC = UIHostingController(rootView: AccessGateView(store: store, onAuthorized: handleAuthorized))
         }
 
         mainWindow?.rootViewController = rootVC
+    }
+
+    /// Returns to the access gate. The next sign-in re-checks the device's iCloud account.
+    static func signOut() {
+        UserDefaults.standard.set(false, forKey: AppConfig.UserdefaultKeys.LOGGED_IN_STATUS_KEY)
+        SessionStore.shared.signOut()
+        updateRootVC()
+    }
+
+    private static func handleAuthorized() {
+        UserDefaults.standard.set(true, forKey: AppConfig.UserdefaultKeys.LOGGED_IN_STATUS_KEY)
+
+        // Until flight data moves to CloudKit (Phase 2), demo mode seeds the flight list.
+        if SessionManager.shared.demoMode {
+            SessionManager.shared.loadDemoDataIntoCoreData {
+                updateRootVC()
+            }
+        } else {
+            updateRootVC()
+        }
     }
 
 }

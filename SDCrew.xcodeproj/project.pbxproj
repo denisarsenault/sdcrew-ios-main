@@ -30,6 +30,11 @@
 		52FC560222FAF3DB00DF63D0 /* BasicFlightInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC560122FAF3DB00DF63D0 /* BasicFlightInfoCell.swift */; };
 		52FC560522FAF4CB00DF63D0 /* SingleInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC560422FAF4CB00DF63D0 /* SingleInfoCell.swift */; };
 		6E58CB301B60D4D93C831D1E /* Pods_SDCrew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2290693918657E96D2DFC5B8 /* Pods_SDCrew.framework */; };
+		7F9CF537308A50FF0083CE91 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CF536308A50FF0083CE91 /* AppUser.swift */; };
+		7F9CF539308A51160083CE91 /* CloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CF538308A51160083CE91 /* CloudKitService.swift */; };
+		7F9CF53B308A51290083CE91 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CF53A308A51290083CE91 /* SessionStore.swift */; };
+		7F9CF53D308A51400083CE91 /* AccessGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CF53C308A51400083CE91 /* AccessGateView.swift */; };
+		7F9CF53F308A516D0083CE91 /* UserAdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CF53E308A516D0083CE91 /* UserAdminView.swift */; };
 		7FD0663130802BC9000E8CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0663030802BC9000E8CA3 /* SceneDelegate.swift */; };
 		8238AD7810AA226E5797DC78 /* Pods_SDCrewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2055B4B0ED2F95F68B2908E4 /* Pods_SDCrewTests.framework */; };
 		E032603D231BB4D60031D021 /* TakeoffsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0326024231BB4D60031D021 /* TakeoffsCell.swift */; };
@@ -240,6 +245,12 @@
 		52FC560422FAF4CB00DF63D0 /* SingleInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleInfoCell.swift; sourceTree = "<group>"; };
 		5F625E3F0801EA531476967D /* Pods_SDCrewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCrewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB21E2CD25A78561079D7C2 /* Pods-SDCrew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCrew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDCrew/Pods-SDCrew.debug.xcconfig"; sourceTree = "<group>"; };
+		7F9CF534308A4FE70083CE91 /* SDCrew.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SDCrew.entitlements; sourceTree = "<group>"; };
+		7F9CF536308A50FF0083CE91 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		7F9CF538308A51160083CE91 /* CloudKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitService.swift; sourceTree = "<group>"; };
+		7F9CF53A308A51290083CE91 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		7F9CF53C308A51400083CE91 /* AccessGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessGateView.swift; sourceTree = "<group>"; };
+		7F9CF53E308A516D0083CE91 /* UserAdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAdminView.swift; sourceTree = "<group>"; };
 		7FD0663030802BC9000E8CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A992B60BAB3CD70208040A4 /* Pods-SDCrew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCrew.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDCrew/Pods-SDCrew.release.xcconfig"; sourceTree = "<group>"; };
 		915311EF66B861BD0C8F05B0 /* Pods-SDCrewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCrewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDCrewTests/Pods-SDCrewTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -294,6 +305,8 @@
 		221F0EE8230ABEFF0060B707 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7F9CF53C308A51400083CE91 /* AccessGateView.swift */,
+				7F9CF53E308A516D0083CE91 /* UserAdminView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -344,6 +357,7 @@
 		5297099622FAD9710066C800 /* SDCrew */ = {
 			isa = PBXGroup;
 			children = (
+				7F9CF534308A4FE70083CE91 /* SDCrew.entitlements */,
 				221F0EE8230ABEFF0060B707 /* Views */,
 				229A6C66230964F10029558C /* ViewControllers */,
 				229A6C64230964CF0029558C /* Storyboards */,
@@ -362,6 +376,7 @@
 				52B20AA0231BB6030007DFA4 /* CoreSDCrew.xcdatamodeld */,
 				52B20ABC231BCE930007DFA4 /* CoreDataManager.swift */,
 				7FD0663030802BC9000E8CA3 /* SceneDelegate.swift */,
+				7F9CF535308A50FF0083CE91 /* CloudKit */,
 			);
 			path = SDCrew;
 			sourceTree = "<group>";
@@ -422,6 +437,16 @@
 				5F625E3F0801EA531476967D /* Pods_SDCrewUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F9CF535308A50FF0083CE91 /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				7F9CF536308A50FF0083CE91 /* AppUser.swift */,
+				7F9CF538308A51160083CE91 /* CloudKitService.swift */,
+				7F9CF53A308A51290083CE91 /* SessionStore.swift */,
+			);
+			path = CloudKit;
 			sourceTree = "<group>";
 		};
 		E0DAF2E22317D24200429DAC /* Products */ = {
@@ -836,20 +861,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F9CF537308A50FF0083CE91 /* AppUser.swift in Sources */,
 				E0326042231BB4D60031D021 /* PilotInfoCell.swift in Sources */,
 				221F0EE5230A89AD0060B707 /* FlightDetailsViewController.swift in Sources */,
 				221F0EE4230A89320060B707 /* FlightLegListViewController.swift in Sources */,
+				7F9CF53D308A51400083CE91 /* AccessGateView.swift in Sources */,
 				E0BD90F0230A7E69003FAC82 /* LoginSwitcher.swift in Sources */,
 				52B20AB1231BB6030007DFA4 /* CoreSDCrew.xcdatamodeld in Sources */,
 				E0BD90EA230A72FB003FAC82 /* LoginViewController.swift in Sources */,
 				E0326043231BB4D60031D021 /* BasicPilotInfoCell.swift in Sources */,
 				52B20AB3231BB60D0007DFA4 /* BMSegmentedControl.swift in Sources */,
+				7F9CF539308A51160083CE91 /* CloudKitService.swift in Sources */,
 				E032603D231BB4D60031D021 /* TakeoffsCell.swift in Sources */,
 				52D1EC18230964B000619290 /* DoubleInfoCell.swift in Sources */,
 				52FC560522FAF4CB00DF63D0 /* SingleInfoCell.swift in Sources */,
 				7FD0663130802BC9000E8CA3 /* SceneDelegate.swift in Sources */,
 				E0326041231BB4D60031D021 /* RoleInfoCell.swift in Sources */,
 				52D1EC152309254200619290 /* View.swift in Sources */,
+				7F9CF53F308A516D0083CE91 /* UserAdminView.swift in Sources */,
 				E0326045231BB4D60031D021 /* ApproachTypeCell.swift in Sources */,
 				E032603E231BB4D60031D021 /* TrackAndHoldCell.swift in Sources */,
 				5297099822FAD9710066C800 /* AppDelegate.swift in Sources */,
@@ -860,6 +889,7 @@
 				52B20ABD231BCE930007DFA4 /* CoreDataManager.swift in Sources */,
 				229A6C6E23096CD50029558C /* FlightsTableViewCell.swift in Sources */,
 				E0BD90EE230A7E03003FAC82 /* AppConfig.swift in Sources */,
+				7F9CF53B308A51290083CE91 /* SessionStore.swift in Sources */,
 				E0326046231BB4D60031D021 /* ApproachesCell.swift in Sources */,
 				52FC560222FAF3DB00DF63D0 /* BasicFlightInfoCell.swift in Sources */,
 				E032603F231BB4D60031D021 /* MeasurementCell.swift in Sources */,
@@ -1052,6 +1082,7 @@
 			baseConfigurationReference = 5FB21E2CD25A78561079D7C2 /* Pods-SDCrew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SDCrew/SDCrew.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8P24AZNQT;
@@ -1062,7 +1093,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myubrightzone.sdcrew;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawknestsoftware.mypilot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -1075,6 +1106,7 @@
 			baseConfigurationReference = 8A992B60BAB3CD70208040A4 /* Pods-SDCrew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SDCrew/SDCrew.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8P24AZNQT;
@@ -1085,7 +1117,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myubrightzone.sdcrew;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawknestsoftware.mypilot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -1109,7 +1141,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myubrightzone.SDCrewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawknestsoftware.mypilotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1133,7 +1165,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myubrightzone.SDCrewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawknestsoftware.mypilotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1156,7 +1188,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myubrightzone.SDCrewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawknestsoftware.mypilotUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1179,7 +1211,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myubrightzone.SDCrewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawknestsoftware.mypilotUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

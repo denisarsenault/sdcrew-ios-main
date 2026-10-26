@@ -42,6 +42,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
 
+    func sceneDidBecomeActive(_ scene: UIScene) {
+        // Re-check the user's CloudKit record so an administrator deactivating or archiving
+        // this account takes effect the next time the app comes to the foreground.
+        Task { @MainActor in
+            let store = SessionStore.shared
+            guard store.isAuthorized else { return }
+            if await store.revalidate() == false {
+                LoginSwitcher.updateRootVC()
+            }
+        }
+    }
+
     /// Forwards incoming URLs to AppDelegate, which owns the in-flight AppAuth session.
     private func handle(url: URL) {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }

@@ -164,8 +164,10 @@ class SessionManager: NSObject, URLSessionDelegate {
             }else if statusCode == 401{
                 // to do
                 UserDefaults.standard.set(false, forKey: AppConfig.UserdefaultKeys.LOGGED_IN_STATUS_KEY)
-                LoginSwitcher.updateRootVC()
-                
+                Task { @MainActor in
+                    LoginSwitcher.updateRootVC()
+                }
+
                 let errorObj = NSError(domain:withUrlString, code:401, userInfo:[ NSLocalizedDescriptionKey: "Unauthorized error"]) as Error
                 completionHandler(true,errorObj,nil)
             }else{

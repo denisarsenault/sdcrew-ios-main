@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftUI
 import SwiftyJSON
 
 class FlightLegListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -303,18 +304,24 @@ class FlightLegListViewController: UIViewController, UITableViewDelegate, UITabl
         self.navigationController?.pushViewController(flightDetails, animated: true)
     }
     @IBAction func logoutButtonPressed(_ sender: UIButton) {
-        let alertController = UIAlertController(title:nil ,message:nil, preferredStyle: .actionSheet)
-        
-        let logoutAction = UIAlertAction.init(title: "Logout", style: .default) { (action) in
-//            UserDefaults.standard.set(false, forKey: AppConfig.UserdefaultKeys.LOGGED_IN_STATUS_KEY)
-//            LoginSwitcher.updateRootVC()
-            var loginObj = LoginViewController()
-            loginObj.logoutAuth0()
-            self.coreDataManager.deleteEntity(types: [.Flight, .Pilot, .Fuel, .Note])
+        let session = SessionStore.shared
+        let alertController = UIAlertController(title: session.currentUser?.fullName,
+                                                message: session.currentUser?.role.displayName,
+                                                preferredStyle: .actionSheet)
+
+        if session.isAdmin {
+            alertController.addAction(UIAlertAction(title: "Manage Users", style: .default) { _ in
+                self.presentUserAdministration()
+            })
         }
-        
+
+        let logoutAction = UIAlertAction(title: "Sign Out", style: .destructive) { _ in
+            self.coreDataManager.deleteEntity(types: [.Flight, .Pilot, .Fuel, .Note])
+            LoginSwitcher.signOut()
+        }
+
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
-        
+
         alertController.addAction(logoutAction)
         alertController.addAction(cancelAction)
         
@@ -322,11 +329,17 @@ class FlightLegListViewController: UIViewController, UITableViewDelegate, UITabl
         alertController.popoverPresentationController?.sourceRect = CGRect(x: self.logoutButton.bounds.width / 2.0, y: self.logoutButton.bounds.height / 2.0, width: 1.0, height: 1.0)
         
         self.present(alertController, animated: true, completion: nil)
-        
-    }
-    
 
-    
+    }
+
+    /// Presents the SwiftUI user administration screens modally. Modal presentation is used
+    /// because this screen hides the navigation bar, which a pushed controller would inherit.
+    private func presentUserAdministration() {
+        let admin = UIHostingController(rootView: UserAdminView(store: SessionStore.shared))
+        admin.modalPresentationStyle = .formSheet
+        present(admin, animated: true)
+    }
+
 }
 
 

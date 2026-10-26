@@ -2667,7 +2667,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				OTHER_MODULE_VERIFIER_FLAGS = "-Wno-quoted-include-in-framework-header";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mybrightzone.AppAuth-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hawknestsoftware.AppAuth-iOS";
 				PRODUCT_NAME = AppAuth;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2702,7 +2702,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				OTHER_MODULE_VERIFIER_FLAGS = "-Wno-quoted-include-in-framework-header";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mybrightzone.AppAuth-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hawknestsoftware.AppAuth-iOS";
 				PRODUCT_NAME = AppAuth;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
